@@ -24,9 +24,10 @@ const router = createBrowserRouter([{
             path: "/contact",
             element: <Contact />
         },
-        { basename: "/MyPortfolio" }
     ]
-}]);
+}],
+    { basename: "/MyPortfolio" }
+);
 
 function App() {
     return (
