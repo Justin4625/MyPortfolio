@@ -1,19 +1,19 @@
 function Experience() {
     const technologies = [
-        { name: "HTML", img: "/iconImages/HTML5.webp", url: "https://developer.mozilla.org/en-US/docs/Web/HTML" },
-        { name: "CSS", img: "/iconImages/CSS.svg", url: "https://developer.mozilla.org/en-US/docs/Web/CSS" },
-        { name: "PHP", img: "/iconImages/PHP-logo.svg.png", url: "https://www.php.net/" },
-        { name: "Javascript", img: "/iconImages/js.png", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
-        { name: "React", img: "/iconImages/react.png", url: "https://reactjs.org/" },
-        { name: "Tailwind CSS", img: "/iconImages/tailwindcss.png", url: "https://tailwindcss.com/" },
-        { name: "Node.js", img: "/iconImages/nodejs.png", url: "https://nodejs.org/" },
-        { name: "Express.js", img: "/iconImages/express.png", url: "https://expressjs.com/" },
-        { name: "Laravel", img: "/iconImages/laravel.png", url: "https://laravel.com/" },
-        { name: "SQL", img: "/iconImages/sql.webp", url: "https://www.w3schools.com/sql/" },
-        { name: "Excalibur.js", img: "/iconImages/excalibur.png", url: "https://excaliburjs.com/" },
-        { name: "MongoDB", img: "/iconImages/mongodb.svg", url: "https://www.mongodb.com/" },
-        { name: "Postman", img: "/iconImages/postman.webp", url: "https://www.postman.com/" },
-        { name: "GitHub", img: "/iconImages/github.png", url: "https://github.com/" },
+        { name: "HTML", img: "/MyPortfolio/iconImages/HTML5.webp", url: "https://developer.mozilla.org/en-US/docs/Web/HTML" },
+        { name: "CSS", img: "/MyPortfolio/iconImages/CSS.svg", url: "https://developer.mozilla.org/en-US/docs/Web/CSS" },
+        { name: "PHP", img: "/MyPortfolio/iconImages/PHP-logo.svg.png", url: "https://www.php.net/" },
+        { name: "Javascript", img: "/MyPortfolio/iconImages/js.png", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
+        { name: "React", img: "/MyPortfolio/iconImages/react.png", url: "https://reactjs.org/" },
+        { name: "Tailwind CSS", img: "/MyPortfolio/iconImages/tailwindcss.png", url: "https://tailwindcss.com/" },
+        { name: "Node.js", img: "/MyPortfolio/iconImages/nodejs.png", url: "https://nodejs.org/" },
+        { name: "Express.js", img: "/MyPortfolio/iconImages/express.png", url: "https://expressjs.com/" },
+        { name: "Laravel", img: "/MyPortfolio/iconImages/laravel.png", url: "https://laravel.com/" },
+        { name: "SQL", img: "/MyPortfolio/iconImages/sql.webp", url: "https://www.w3schools.com/sql/" },
+        { name: "Excalibur.js", img: "/MyPortfolio/iconImages/excalibur.png", url: "https://excaliburjs.com/" },
+        { name: "MongoDB", img: "/MyPortfolio/iconImages/mongodb.svg", url: "https://www.mongodb.com/" },
+        { name: "Postman", img: "/MyPortfolio/iconImages/postman.webp", url: "https://www.postman.com/" },
+        { name: "GitHub", img: "/MyPortfolio/iconImages/github.png", url: "https://github.com/" },
     ];
 
     return (
