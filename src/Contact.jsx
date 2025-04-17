@@ -18,7 +18,7 @@ function Contact() {
                 <div
                     className="flex items-center space-x-6 bg-gray-800 p-8 rounded-lg shadow-[0_0_15px_rgba(255,165,0,0.8)] hover:shadow-[0_0_30px_rgba(255,165,0,1)] hover:scale-110 transition-transform duration-300 border-2 border-orange-500">
                     <img
-                        src="/iconImages/LinkedIn.png"
+                        src="/MyPortfolio/iconImages/LinkedIn.png"
                         alt="LinkedIn Logo"
                         className="w-16 h-16"
                     />
@@ -36,7 +36,7 @@ function Contact() {
                 <div
                     className="flex items-center space-x-6 bg-gray-800 p-8 rounded-lg shadow-[0_0_15px_rgba(0,255,127,0.8)] hover:shadow-[0_0_30px_rgba(0,255,127,1)] hover:scale-110 transition-transform duration-300 border-2 border-green-500">
                     <img
-                        src="/iconImages/Gmail.png"
+                        src="/MyPortfolio/iconImages/Gmail.png"
                         alt="Gmail Logo"
                         className="w-16 h-16"
                     />
