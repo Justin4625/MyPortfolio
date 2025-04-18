@@ -14,84 +14,54 @@ function Projects() {
                 <div
                     className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 hover:shadow-2xl hover:shadow-yellow-500/50 transition-transform duration-300">
                     <h2 className="text-2xl font-bold mb-4 text-yellow-400">Taalmodel (Binnenkort)</h2>
-                    <img src="./projectImages/Beelherkenning.png" alt="project 15" className="mb-4 rounded-lg"/>
+                    <img src="./projectImages/test.png" alt="project 10" className="mb-4 rounded-lg"/>
                     <a href="#" className="text-yellow-400 hover:text-yellow-300 hover:underline">Bekijk project</a>
                 </div>
                 <div
                     className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 hover:shadow-2xl hover:shadow-yellow-500/50 transition-transform duration-300">
                     <h2 className="text-2xl font-bold mb-4 text-yellow-400">Beeldherkenning model</h2>
-                    <img src="./projectImages/Beeldherkenning.png" alt="project 14" className="mb-4 rounded-lg"/>
+                    <img src="./projectImages/Beeldherkenning.png" alt="project 9" className="mb-4 rounded-lg"/>
                     <a href="#" className="text-yellow-400 hover:text-yellow-300 hover:underline">Bekijk project</a>
                 </div>
                 <div
                     className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 hover:shadow-2xl hover:shadow-yellow-500/50 transition-transform duration-300">
                     <h2 className="text-2xl font-bold mb-4 text-yellow-400">Hotspots (Binnenkort)</h2>
-                    <img src="/path-to-image2.jpg" alt="project 13" className="mb-4 rounded-lg"/>
-                    <a href="#" className="text-yellow-400 hover:text-yellow-300 hover:underline">Bekijk project</a>
-                </div>
-                <div
-                    className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 hover:shadow-2xl hover:shadow-yellow-500/50 transition-transform duration-300">
-                    <h2 className="text-2xl font-bold mb-4 text-yellow-400">Nederlandse Gebarentaal</h2>
-                    <img src="/path-to-image2.jpg" alt="project 12" className="mb-4 rounded-lg"/>
-                    <a href="#" className="text-yellow-400 hover:text-yellow-300 hover:underline">Bekijk project</a>
-                </div>
-                <div
-                    className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 hover:shadow-2xl hover:shadow-yellow-500/50 transition-transform duration-300">
-                    <h2 className="text-2xl font-bold mb-4 text-yellow-400">Persona Compendium</h2>
-                    <img src="/path-to-image2.jpg" alt="project 11" className="mb-4 rounded-lg"/>
-                    <a href="#" className="text-yellow-400 hover:text-yellow-300 hover:underline">Bekijk project</a>
-                </div>
-                <div
-                    className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 hover:shadow-2xl hover:shadow-yellow-500/50 transition-transform duration-300">
-                    <h2 className="text-2xl font-bold mb-4 text-yellow-400">Open Hiring</h2>
-                    <img src="/path-to-image2.jpg" alt="project 10" className="mb-4 rounded-lg"/>
-                    <a href="#" className="text-yellow-400 hover:text-yellow-300 hover:underline">Bekijk project</a>
-                </div>
-                <div
-                    className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 hover:shadow-2xl hover:shadow-yellow-500/50 transition-transform duration-300">
-                    <h2 className="text-2xl font-bold mb-4 text-yellow-400">Pokémon Compendium</h2>
-                    <img src="/path-to-image2.jpg" alt="project 9" className="mb-4 rounded-lg"/>
-                    <a href="#" className="text-yellow-400 hover:text-yellow-300 hover:underline">Bekijk project</a>
-                </div>
-                <div
-                    className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 hover:shadow-2xl hover:shadow-yellow-500/50 transition-transform duration-300">
-                    <h2 className="text-2xl font-bold mb-4 text-yellow-400">Shinydex</h2>
                     <img src="/path-to-image2.jpg" alt="project 8" className="mb-4 rounded-lg"/>
                     <a href="#" className="text-yellow-400 hover:text-yellow-300 hover:underline">Bekijk project</a>
                 </div>
                 <div
                     className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 hover:shadow-2xl hover:shadow-yellow-500/50 transition-transform duration-300">
-                    <h2 className="text-2xl font-bold mb-4 text-yellow-400">Earthifacts</h2>
-                    <img src="/path-to-image2.jpg" alt="project 7" className="mb-4 rounded-lg"/>
+                    <h2 className="text-2xl font-bold mb-4 text-yellow-400">Nederlandse Gebarentaal</h2>
+                    <img src="./projectImages/NederlandseGebarentaal.png" alt="project 7" className="mb-4 rounded-lg"/>
                     <a href="#" className="text-yellow-400 hover:text-yellow-300 hover:underline">Bekijk project</a>
                 </div>
                 <div
                     className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 hover:shadow-2xl hover:shadow-yellow-500/50 transition-transform duration-300">
-                    <h2 className="text-2xl font-bold mb-4 text-yellow-400">Space Chicken</h2>
+                    <h2 className="text-2xl font-bold mb-4 text-yellow-400">Open Hiring</h2>
                     <img src="/path-to-image2.jpg" alt="project 6" className="mb-4 rounded-lg"/>
                     <a href="#" className="text-yellow-400 hover:text-yellow-300 hover:underline">Bekijk project</a>
                 </div>
                 <div
                     className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 hover:shadow-2xl hover:shadow-yellow-500/50 transition-transform duration-300">
-                    <h2 className="text-2xl font-bold mb-4 text-yellow-400">Fitness App </h2>
+                    <h2 className="text-2xl font-bold mb-4 text-yellow-400">Pokémon Compendium</h2>
                     <img src="/path-to-image2.jpg" alt="project 5" className="mb-4 rounded-lg"/>
                     <a href="#" className="text-yellow-400 hover:text-yellow-300 hover:underline">Bekijk project</a>
                 </div>
                 <div
                     className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 hover:shadow-2xl hover:shadow-yellow-500/50 transition-transform duration-300">
-                    <h2 className="text-2xl font-bold mb-4 text-yellow-400">Game Gallery</h2>
+                    <h2 className="text-2xl font-bold mb-4 text-yellow-400">Shinydex</h2>
                     <img src="/path-to-image2.jpg" alt="project 4" className="mb-4 rounded-lg"/>
                     <a href="#" className="text-yellow-400 hover:text-yellow-300 hover:underline">Bekijk project</a>
                 </div>
                 <div
                     className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 hover:shadow-2xl hover:shadow-yellow-500/50 transition-transform duration-300">
-                    <h2 className="text-2xl font-bold mb-4 text-yellow-400">Reserveringsysteem</h2>
+                    <h2 className="text-2xl font-bold mb-4 text-yellow-400">Earthifacts</h2>
                     <img src="/path-to-image2.jpg" alt="project 3" className="mb-4 rounded-lg"/>
                     <a href="#" className="text-yellow-400 hover:text-yellow-300 hover:underline">Bekijk project</a>
                 </div>
                 <div
                     className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 hover:shadow-2xl hover:shadow-yellow-500/50 transition-transform duration-300">
-                    <h2 className="text-2xl font-bold mb-4 text-yellow-400">Muziek Albums</h2>
+                    <h2 className="text-2xl font-bold mb-4 text-yellow-400">Space Chicken</h2>
                     <img src="/path-to-image2.jpg" alt="project 2" className="mb-4 rounded-lg"/>
                     <a href="#" className="text-yellow-400 hover:text-yellow-300 hover:underline">Bekijk project</a>
                 </div>
