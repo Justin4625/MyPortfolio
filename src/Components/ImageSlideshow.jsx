@@ -24,7 +24,7 @@ function ImageSlideshow({ images, autoplayInterval = 3000 }) {
     }, [currentIndex, autoplayInterval]);
 
     return (
-        <div className="mb-5 relative max-w-3xl mx-auto overflow-hidden bg-gradient-to-br from-yellow-700 via-gray-800 to-yellow-700 shadow-2xl h-[28rem] rounded-lg">
+        <div className="mb-5 relative max-w-3xl mx-auto overflow-hidden bg-gradient-to-br from-yellow-700 via-gray-800 to-yellow-700 shadow-2xl h-[30rem] rounded-lg">
             <div
                 className="flex transition-transform duration-500 ease-in-out"
                 style={{ transform: `translateX(-${currentIndex * 100}%)` }}
