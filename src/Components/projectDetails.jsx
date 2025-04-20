@@ -1,9 +1,10 @@
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import projects from "../data/projects";
 import ImageSlideshow from "./ImageSlideshow.jsx";
 
 function ProjectDetails() {
     const { id } = useParams();
+    const navigate = useNavigate();
 
     const project = projects.find((p) => p.id === parseInt(id));
 
@@ -12,11 +13,19 @@ function ProjectDetails() {
     }
 
     return (
-        <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-red-900 via-black to-red-800 text-gray-100 px-6 py-12">
-            <div className="max-w-3xl bg-gray-800 p-8 rounded-lg shadow-lg">
-                <h1 className="text-4xl font-extrabold mb-6 text-red-400 text-center">{project.title}</h1>
-                <ImageSlideshow images={project.images} />
-                <p className="text-lg text-gray-300 mb-6 leading-relaxed">{project.description}</p>
+        <div
+            className="flex items-center justify-center min-h-screen bg-gradient-to-br from-red-700 via-gray-800 to-red-700 text-gray-100 px-6 py-12">
+            <div
+                className="max-w-3xl bg-gradient-to-br from-gray-700 via-gray-800 to-gray-900 p-8 rounded-lg shadow-2xl shadow-black/50 border border-gray-600">
+                <h1 className="text-4xl font-extrabold mb-6 text-red-300 text-center">{project.title}</h1>
+                <ImageSlideshow images={project.images}/>
+                <p className="text-lg text-gray-200 mb-6 leading-relaxed">{project.description}</p>
+                <button
+                    onClick={() => navigate(-1)}
+                    className="bg-red-700/50 text-white text-lg font-bold py-2 px-4 rounded-full hover:bg-red-500/70 hover:scale-110 active:scale-95 transition-all shadow-lg shadow-red-900 backdrop-blur-md"
+                >
+                    &#8592; Terug naar Projecten
+                </button>
             </div>
         </div>
     );
