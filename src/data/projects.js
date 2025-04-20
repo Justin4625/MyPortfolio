@@ -26,7 +26,7 @@ const projects = [
     {
         id: 5,
         title: "Open Hiring",
-
+        description: "The Open Hiring Project was een project dat wij als uitdaging kregen van IO Digital, waarbij we werkten aan een platform voor inclusieve werving. Het idee achter Open Hiring is dat je het traditionele sollicitatieproces overslaat en direct aan de slag kunt.",
         image: "./projectImages/OpenHiring.png"
     },
     {
