@@ -22,7 +22,7 @@ function Projects() {
                         <img src={project.image} alt={project.title} className="mb-4 rounded-lg" />
                         <Link
                             to={`/projecten/${project.id}`}
-                            className="text-yellow-400 hover:text-yellow-300 hover:underline"
+                            className="text-base font-bold text-yellow-400 px-3 py-1.5 rounded-md transition-transform transform hover:scale-105 hover:bg-yellow-800 hover:text-white border border-yellow-500 mx-auto block text-center"
                         >
                             Bekijk project
                         </Link>
