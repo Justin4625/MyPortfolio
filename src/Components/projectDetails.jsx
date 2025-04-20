@@ -9,20 +9,20 @@ function ProjectDetails() {
     const project = projects.find((p) => p.id === parseInt(id));
 
     if (!project) {
-        return <div className="text-center text-red-500 text-2xl font-bold mt-20">Project not found</div>;
+        return <div className="text-center text-yellow-500 text-2xl font-bold mt-20">Project not found</div>;
     }
 
     return (
         <div
-            className="flex items-center justify-center min-h-screen bg-gradient-to-br from-red-700 via-gray-800 to-red-700 text-gray-100 px-6 py-12">
+            className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-orange-900 via-black to-yellow-800 text-gray-100 px-6 py-12 relative overflow-hidden">
             <div
-                className="max-w-3xl bg-gradient-to-br from-gray-700 via-gray-800 to-gray-900 p-8 rounded-lg shadow-2xl shadow-black/50 border border-gray-600">
-                <h1 className="text-4xl font-extrabold mb-6 text-red-300 text-center">{project.title}</h1>
+                className="max-w-3xl bg-gray-800 p-8 rounded-lg shadow-lg shadow-black/50 border border-gray-700">
+                <h1 className="text-4xl font-extrabold mb-6 text-yellow-300 text-center">{project.title}</h1>
                 <ImageSlideshow images={project.images}/>
-                <p className="text-lg text-gray-200 mb-6 leading-relaxed">{project.description}</p>
+                <p className="text-lg text-gray-300 mb-6 leading-relaxed">{project.description}</p>
                 <button
                     onClick={() => navigate(-1)}
-                    className="bg-red-700/50 text-white text-lg font-bold py-2 px-4 rounded-full hover:bg-red-500/70 hover:scale-110 active:scale-95 transition-all shadow-lg shadow-red-900 backdrop-blur-md"
+                    className="text-base font-bold text-yellow-400 px-3 py-1.5 rounded-md transition-transform transform hover:scale-105 hover:bg-yellow-800 hover:text-white border border-yellow-500 block text-left"
                 >
                     &#8592; Terug naar Projecten
                 </button>

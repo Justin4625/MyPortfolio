@@ -24,7 +24,7 @@ function ImageSlideshow({ images, autoplayInterval = 3000 }) {
     }, [currentIndex, autoplayInterval]);
 
     return (
-        <div className=" mb-5 relative max-w-3xl mx-auto overflow-hidden bg-gradient-to-br from-red-900 via-black to-red-800 shadow-2xl h-[28rem] rounded-lg">
+        <div className="mb-5 relative max-w-3xl mx-auto overflow-hidden bg-gradient-to-br from-yellow-700 via-gray-800 to-yellow-700 shadow-2xl h-[28rem] rounded-lg">
             <div
                 className="flex transition-transform duration-500 ease-in-out"
                 style={{ transform: `translateX(-${currentIndex * 100}%)` }}
@@ -41,13 +41,13 @@ function ImageSlideshow({ images, autoplayInterval = 3000 }) {
             <div className="absolute inset-y-0 flex justify-between items-center w-full px-4">
                 <button
                     onClick={handlePrevImage}
-                    className="bg-red-700/50 text-white text-3xl font-bold p-4 rounded-full hover:bg-red-500/70 hover:scale-110 active:scale-95 transition-all shadow-lg shadow-red-900 backdrop-blur-md"
+                    className="bg-yellow-700/50 text-white text-3xl font-bold p-4 rounded-full hover:bg-yellow-500/70 hover:scale-110 active:scale-95 transition-all shadow-lg shadow-yellow-900 backdrop-blur-md"
                 >
                     &#8592; {/* Left arrow */}
                 </button>
                 <button
                     onClick={handleNextImage}
-                    className="bg-red-700/50 text-white text-3xl font-bold p-4 rounded-full hover:bg-red-500/70 hover:scale-110 active:scale-95 transition-all shadow-lg shadow-red-900 backdrop-blur-md"
+                    className="bg-yellow-700/50 text-white text-3xl font-bold p-4 rounded-full hover:bg-yellow-500/70 hover:scale-110 active:scale-95 transition-all shadow-lg shadow-yellow-900 backdrop-blur-md"
                 >
                     &#8594; {/* Right arrow */}
                 </button>
@@ -58,7 +58,7 @@ function ImageSlideshow({ images, autoplayInterval = 3000 }) {
                         key={index}
                         onClick={() => goToSlide(index)}
                         className={`w-3 h-3 rounded-full ${
-                            currentIndex === index ? "bg-red-500" : "bg-gray-500"
+                            currentIndex === index ? "bg-yellow-500" : "bg-gray-500"
                         } transition-colors duration-300`}
                     ></button>
                 ))}
