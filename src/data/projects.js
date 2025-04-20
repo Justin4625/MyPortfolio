@@ -38,6 +38,7 @@ const projects = [
     {
         id: 7,
         title: "Shinydex",
+        description: "Dit was een persoonlijk project. Het is een Shinydex waarin je als gebruiker kunt bijhouden welke Shiny Pokémon je al hebt verzameld en hoeveel voortgang je hebt geboekt in je Pokédex.",
         image: "./projectImages/Shinydex.png"
     },
     {
