@@ -20,13 +20,13 @@ const projects = [
     {
         id: 4,
         title: "Nederlandse Gebarentaal",
-        description: "Samen met een team van vijf heb ik een app ontwikkeld voor studenten, met als doel om het leren van Nederlandse Gebarentaal makkelijker en toegankelijker te maken. De app is ontworpen om ‘on the go’ gebruikt te worden op de telefoon, zodat studenten altijd en overal kunnen oefenen.",
+        description: "Samen met een team van vijf heb ik een app ontwikkeld voor studenten in 12 dagen tijd, met als doel om het leren van Nederlandse Gebarentaal makkelijker en toegankelijker te maken. De app is ontworpen om ‘on the go’ gebruikt te worden op de telefoon, zodat studenten altijd en overal kunnen oefenen.",
         image: "./projectImages/NederlandseGebarentaal.png"
     },
     {
         id: 5,
         title: "Open Hiring",
-        description: "The Open Hiring Project was een project dat wij als uitdaging kregen van IO Digital, waarbij we werkten aan een platform voor inclusieve werving. Het idee achter Open Hiring is dat je het traditionele sollicitatieproces overslaat en direct aan de slag kunt.",
+        description: "The Open Hiring Project was een project dat we in een team van vijf studenten in 12 dagen hebben ontwikkeld. We kregen deze uitdaging van IO Digital, met als doel een platform te creëren voor inclusieve werving. Het idee achter Open Hiring is dat het traditionele sollicitatieproces wordt overgeslagen, waardoor kandidaten direct aan de slag kunnen.",
         image: "./projectImages/OpenHiring.png"
     },
     {
