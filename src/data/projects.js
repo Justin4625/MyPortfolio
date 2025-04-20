@@ -32,6 +32,7 @@ const projects = [
     {
         id: 6,
         title: "Pokémon Compendium",
+        description: "Dit project was onderdeel van een schoolopdracht. Het is een Pokémon-compendium waarin gebruikers informatie kunnen opzoeken over verschillende Pokémon. Gebruikers kunnen Pokémon liken en zelf nieuwe Pokémon toevoegen. Toegevoegde Pokémon worden pas zichtbaar voor iedereen nadat een admin ze heeft goedgekeurd. De applicatie maakt gebruik van CRUD-functionaliteit (Create, Read, Update, Delete).",
         image: "./projectImages/Pokemoncompendium.png"
     },
     {
