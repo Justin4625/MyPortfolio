@@ -7,6 +7,7 @@ const projects = [
     {
         id: 2,
         title: "Beeldherkenning model",
+        description: "Dit project was onderdeel van een schoolopdracht. Het maakt gebruik van een beeldherkenningsmodel dat is getraind op een dataset van 1000 afbeeldingen. Het model is gebaseerd op een neuraal netwerk en is in staat om objecten in afbeeldingen te identificeren en classificeren. Ik heb dit model vervolgens omgebouwd tot een soort game, waarbij gebruikers spelenderwijs interactie kunnen hebben met de beeldherkenning.",
         image: "./projectImages/Beeldherkenning.png"
     },
     {
