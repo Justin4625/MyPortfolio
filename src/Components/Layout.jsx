@@ -18,13 +18,13 @@ function Layout() {
                     </Link>
                     <Link
                         to={"/projecten"}
-                        className="text-lg font-bold text-pink-400 px-4 py-2 rounded-lg transition-transform transform hover:scale-110 hover:bg-pink-800 hover:text-white border-2 border-pink-500"
+                        className="text-lg font-bold text-yellow-400 px-4 py-2 rounded-lg transition-transform transform hover:scale-110 hover:bg-yellow-800 hover:text-white border-2 border-yellow-500"
                     >
                         Projecten
                     </Link>
                     <Link
                         to={"/ervaring"}
-                        className="text-lg font-bold text-yellow-400 px-4 py-2 rounded-lg transition-transform transform hover:scale-110 hover:bg-yellow-800 hover:text-white border-2 border-yellow-500"
+                        className="text-lg font-bold text-purple-400 px-4 py-2 rounded-lg transition-transform transform hover:scale-110 hover:bg-purple-800 hover:text-white border-2 border-purple-500"
                     >
                         Ervaring
                     </Link>
