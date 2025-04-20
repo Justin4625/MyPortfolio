@@ -88,7 +88,7 @@ const projects = [
         description: "Dit was mijn allereerste schoolopdracht. Het is een eenvoudige website, gebouwd met HTML en CSS, waarin je een vakantiebestemming kunt boeken.",
         image: "./projectImages/Vakantiebestemmingen.png",
         images: [
-            "../projectImages/Vakantiebestemmingen.png",Add
+            "../projectImages/Vakantiebestemmingen.png"
         ]
     },
 ];
