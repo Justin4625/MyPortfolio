@@ -18,11 +18,13 @@ const projects = [
     {
         id: 4,
         title: "Nederlandse Gebarentaal",
+        description: "Samen met een team van vijf heb ik een app ontwikkeld voor studenten, met als doel om het leren van Nederlandse Gebarentaal makkelijker en toegankelijker te maken. De app is ontworpen om ‘on the go’ gebruikt te worden op de telefoon, zodat studenten altijd en overal kunnen oefenen.",
         image: "./projectImages/NederlandseGebarentaal.png"
     },
     {
         id: 5,
         title: "Open Hiring",
+
         image: "./projectImages/OpenHiring.png"
     },
     {
