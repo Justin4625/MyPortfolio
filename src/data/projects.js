@@ -2,7 +2,7 @@ const projects = [
     {
         id: 1,
         title: "Taalmodel (Binnenkort)",
-        image: "./projectImages/test.png"
+        image: "./projectImages/comingSoon.jpg"
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ const projects = [
     {
         id: 3,
         title: "Hotspots (Binnenkort)",
-        image: "./projectImages/test.png"
+        image: "./projectImages/comingSoon.jpg"
     },
     {
         id: 4,
