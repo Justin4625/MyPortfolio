@@ -41,13 +41,13 @@ function ImageSlideshow({ images, autoplayInterval = 3000 }) {
             <div className="absolute inset-y-0 flex justify-between items-center w-full px-4">
                 <button
                     onClick={handlePrevImage}
-                    className="bg-yellow-700/50 text-white text-3xl font-bold p-4 rounded-full hover:bg-yellow-500/70 hover:scale-110 active:scale-95 transition-all shadow-lg shadow-yellow-900 backdrop-blur-md"
+                    className="bg-orange-700/50 text-white text-3xl font-bold p-4 rounded-full hover:bg-orange-500/70 hover:scale-110 active:scale-95 transition-all shadow-lg shadow-orange-900 backdrop-blur-md"
                 >
                     &#8592; {/* Left arrow */}
                 </button>
                 <button
                     onClick={handleNextImage}
-                    className="bg-yellow-700/50 text-white text-3xl font-bold p-4 rounded-full hover:bg-yellow-500/70 hover:scale-110 active:scale-95 transition-all shadow-lg shadow-yellow-900 backdrop-blur-md"
+                    className="bg-orange-700/50 text-white text-3xl font-bold p-4 rounded-full hover:bg-orange-500/70 hover:scale-110 active:scale-95 transition-all shadow-lg shadow-orange-900 backdrop-blur-md"
                 >
                     &#8594; {/* Right arrow */}
                 </button>
