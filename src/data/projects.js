@@ -50,11 +50,13 @@ const projects = [
     {
         id: 9,
         title: "Space Chicken",
+        description: "Dit project was onderdeel van een schoolopdracht. Space Chicken is een game waarin je als vliegende kip zoveel mogelijk muntjes moet verzamelen om een zo hoog mogelijk record te behalen, terwijl je obstakels ontwijkt.",
         image: "./projectImages/Spacechicken.png"
     },
     {
         id: 10,
         title: "Vakantiebestemmingen",
+        description: "",
         image: "./projectImages/Vakantiebestemmingen.png"
     },
 ];
