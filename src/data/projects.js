@@ -2,6 +2,7 @@ const projects = [
     {
         id: 1,
         title: "Taalmodel (Binnenkort)",
+        description: "Dit project is op dit moment nog in ontwikkeling",
         image: "./projectImages/comingSoon.jpg"
     },
     {
@@ -13,6 +14,7 @@ const projects = [
     {
         id: 3,
         title: "Hotspots (Binnenkort)",
+        description: "Dit project is op dit moment nog in ontwikkeling",
         image: "./projectImages/comingSoon.jpg"
     },
     {
