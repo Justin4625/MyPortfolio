@@ -44,6 +44,7 @@ const projects = [
     {
         id: 8,
         title: "Earthifacts",
+        description: "Dit project is in 13 dagen ontwikkeld door een team van vier. Het resultaat is Earthifacts, een RPG-game waarin je rond de Kralingse Plas op zoek gaat naar vier verborgen 'earthifacts'. Deze vind je door met NPC's te praten en de omgeving te verkennen.",
         image: "./projectImages/Earthifacts.png"
     },
     {
