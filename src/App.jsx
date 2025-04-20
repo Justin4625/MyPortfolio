@@ -4,6 +4,7 @@ import Home from "./Home.jsx";
 import Projects from "./Projects.jsx";
 import Experience from "./Experience.jsx";
 import Contact from "./Contact.jsx";
+import ProjectDetails from "./Components/projectDetails.jsx";
 
 const router = createBrowserRouter([{
     element: <Layout />,
@@ -15,6 +16,10 @@ const router = createBrowserRouter([{
         {
             path: "/projecten",
             element: <Projects />
+        },
+        {
+            path: "/projecten/:id",
+            element: <ProjectDetails />
         },
         {
             path: "/ervaring",
