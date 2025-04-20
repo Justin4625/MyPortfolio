@@ -3,7 +3,10 @@ const projects = [
         id: 1,
         title: "Taalmodel (Binnenkort)",
         description: "Dit project is op dit moment nog in ontwikkeling",
-        image: "./projectImages/comingSoon.jpg"
+        image: "./projectImages/comingSoon.jpg",
+        images: [
+            "../projectImages/comingSoon.jpg"
+        ]
     },
     {
         id: 2,
@@ -20,49 +23,73 @@ const projects = [
         id: 3,
         title: "Hotspots (Binnenkort)",
         description: "Dit project is op dit moment nog in ontwikkeling",
-        image: "./projectImages/comingSoon.jpg"
+        image: "./projectImages/comingSoon.jpg",
+        images: [
+            "../projectImages/comingSoon.jpg"
+        ]
     },
     {
         id: 4,
         title: "Nederlandse Gebarentaal",
         description: "Samen met een team van vijf heb ik een app ontwikkeld voor studenten in 12 dagen tijd, met als doel om het leren van Nederlandse Gebarentaal makkelijker en toegankelijker te maken. De app is ontworpen om ‘on the go’ gebruikt te worden op de telefoon, zodat studenten altijd en overal kunnen oefenen.",
-        image: "./projectImages/NederlandseGebarentaal.png"
+        image: "./projectImages/NederlandseGebarentaal.png",
+        images: [
+            "../projectImages/NederlandseGebarentaal.png",
+        ]
     },
     {
         id: 5,
         title: "Open Hiring",
         description: "The Open Hiring Project was een project dat we in een team van vijf studenten in 12 dagen hebben ontwikkeld. We kregen deze uitdaging van IO Digital, met als doel een platform te creëren voor inclusieve werving. Het idee achter Open Hiring is dat het traditionele sollicitatieproces wordt overgeslagen, waardoor kandidaten direct aan de slag kunnen.",
-        image: "./projectImages/OpenHiring.png"
+        image: "./projectImages/OpenHiring.png",
+        images: [
+            "../projectImages/OpenHiring.png",
+        ]
     },
     {
         id: 6,
         title: "Pokémon Compendium",
         description: "Dit project was onderdeel van een schoolopdracht. Het is een Pokémon-compendium waarin gebruikers informatie kunnen opzoeken over verschillende Pokémon. Gebruikers kunnen Pokémon liken en zelf nieuwe Pokémon toevoegen. Toegevoegde Pokémon worden pas zichtbaar voor iedereen nadat een admin ze heeft goedgekeurd. De applicatie maakt gebruik van CRUD-functionaliteit (Create, Read, Update, Delete).",
-        image: "./projectImages/Pokemoncompendium.png"
+        image: "./projectImages/Pokemoncompendium.png",
+        images: [
+            "../projectImages/Pokemoncompendium.png",
+        ]
     },
     {
         id: 7,
         title: "Shinydex",
         description: "Dit was een persoonlijk project. Het is een Shinydex waarin je als gebruiker kunt bijhouden welke Shiny Pokémon je al hebt verzameld en hoeveel voortgang je hebt geboekt in je Pokédex.",
-        image: "./projectImages/Shinydex.png"
+        image: "./projectImages/Shinydex.png",
+        images: [
+            "../projectImages/Shinydex.png",
+        ]
     },
     {
         id: 8,
         title: "Earthifacts",
         description: "Dit project is in 13 dagen ontwikkeld door een team van vier. Het resultaat is Earthifacts, een RPG-game waarin je rond de Kralingse Plas op zoek gaat naar vier verborgen 'earthifacts'. Deze vind je door met NPC's te praten en de omgeving te verkennen.",
-        image: "./projectImages/Earthifacts.png"
+        image: "./projectImages/Earthifacts.png",
+        images: [
+            "../projectImages/Earthifacts.png",
+        ]
     },
     {
         id: 9,
         title: "Space Chicken",
         description: "Dit project was onderdeel van een schoolopdracht. Space Chicken is een game waarin je als vliegende kip zoveel mogelijk muntjes moet verzamelen om een zo hoog mogelijk record te behalen, terwijl je obstakels ontwijkt.",
-        image: "./projectImages/Spacechicken.png"
+        image: "./projectImages/Spacechicken.png",
+        images: [
+            "../projectImages/Spacechicken.png",
+        ]
     },
     {
         id: 10,
         title: "Vakantiebestemmingen",
         description: "Dit was mijn allereerste schoolopdracht. Het is een eenvoudige website, gebouwd met HTML en CSS, waarin je een vakantiebestemming kunt boeken.",
-        image: "./projectImages/Vakantiebestemmingen.png"
+        image: "./projectImages/Vakantiebestemmingen.png",
+        images: [
+            "../projectImages/Vakantiebestemmingen.png",Add
+        ]
     },
 ];
 
