@@ -39,6 +39,14 @@ const projects = [
         image: "./projectImages/NederlandseGebarentaal.png",
         images: [
             "../projectImages/NederlandseGebarentaal.png",
+            "../projectImages/NederlandseGebarentaal2.png",
+            "../projectImages/NederlandseGebarentaal3.png",
+            "../projectImages/NederlandseGebarentaal4.png",
+            "../projectImages/NederlandseGebarentaal5.png",
+            "../projectImages/NederlandseGebarentaal6.png",
+            "../projectImages/NederlandseGebarentaal7.png",
+            "../projectImages/NederlandseGebarentaal8.png",
+            "../projectImages/NederlandseGebarentaal9.png",
         ],
         github: "https://github.com/hugodeman/SM-3_team-3"
     },
