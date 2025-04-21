@@ -132,6 +132,9 @@ const projects = [
         image: "./projectImages/Spacechicken.png",
         images: [
             "../projectImages/Spacechicken.png",
+            "../projectImages/Spacechicken2.png",
+            "../projectImages/Spacechicken3.png",
+            "../projectImages/Spacechicken4.png",
         ],
         github: "https://github.com/Justin4625/Space-Chicken---PRG4-Eindopdracht",
         live: "https://justin4625.github.io/Space-Chicken---PRG4-Eindopdracht/"
