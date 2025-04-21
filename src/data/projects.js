@@ -115,6 +115,13 @@ const projects = [
         image: "./projectImages/Earthifacts.png",
         images: [
             "../projectImages/Earthifacts.png",
+            "../projectImages/Earthifacts2.png",
+            "../projectImages/Earthifacts3.png",
+            "../projectImages/Earthifacts4.png",
+            "../projectImages/Earthifacts5.png",
+            "../projectImages/Earthifacts6.png",
+            "../projectImages/Earthifacts7.png",
+            "../projectImages/Earthifacts8.png",
         ],
         github: "https://github.com/Justin4625/Earthifacts-CLE4"
     },
