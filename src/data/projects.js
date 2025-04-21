@@ -7,7 +7,7 @@ const projects = [
         images: [
             "../projectImages/comingSoon.jpg"
         ],
-        github: ""
+        github: "https://github.com/Justin4625/Taalmodel-Eindopdracht-02-PRG-08"
     },
     {
         id: 2,
@@ -19,7 +19,8 @@ const projects = [
             "../projectImages/Beeldherkenning2.png",
             "../projectImages/Beeldherkenning3.png"
         ],
-        github: ""
+        github: "https://github.com/Justin4625/Interface-PRG08-Eindopdracht01",
+        live: "https://justin4625.github.io/Interface-PRG08-Eindopdracht01/"
     },
     {
         id: 3,
@@ -29,7 +30,7 @@ const projects = [
         images: [
             "../projectImages/comingSoon.jpg"
         ],
-        github: ""
+        github: "https://github.com/Justin4625/Hotspots-Eindopdracht-PRG07"
     },
     {
         id: 4,
@@ -39,7 +40,7 @@ const projects = [
         images: [
             "../projectImages/NederlandseGebarentaal.png",
         ],
-        github: ""
+        github: "https://github.com/hugodeman/SM-3_team-3"
     },
     {
         id: 5,
@@ -49,7 +50,7 @@ const projects = [
         images: [
             "../projectImages/OpenHiring.png",
         ],
-        github: ""
+        github: "https://github.com/Priy4s/TLE_1_Agency"
     },
     {
         id: 6,
@@ -59,7 +60,7 @@ const projects = [
         images: [
             "../projectImages/Pokemoncompendium.png",
         ],
-        github: ""
+        github: "https://github.com/Justin4625/PokemonCompendium-PRG05-Eindopracht"
     },
     {
         id: 7,
@@ -69,7 +70,8 @@ const projects = [
         images: [
             "../projectImages/Shinydex.png",
         ],
-        github: ""
+        github: "https://github.com/Justin4625/Shinydex",
+        live: "https://justin4625.github.io/Shinydex/"
     },
     {
         id: 8,
@@ -79,7 +81,7 @@ const projects = [
         images: [
             "../projectImages/Earthifacts.png",
         ],
-        github: ""
+        github: "https://github.com/Justin4625/Earthifacts-CLE4"
     },
     {
         id: 9,
@@ -89,7 +91,8 @@ const projects = [
         images: [
             "../projectImages/Spacechicken.png",
         ],
-        github: ""
+        github: "https://github.com/Justin4625/Space-Chicken---PRG4-Eindopdracht",
+        live: "https://justin4625.github.io/Space-Chicken---PRG4-Eindopdracht/"
     },
     {
         id: 10,
@@ -99,7 +102,8 @@ const projects = [
         images: [
             "../projectImages/Vakantiebestemmingen.png"
         ],
-        github: ""
+        github: "https://github.com/Justin4625/Vakantiebestemming-FE-Eindopdracht",
+        live: "https://justin4625.github.io/Vakantiebestemming-FE-Eindopdracht/"
     },
 ];
 
