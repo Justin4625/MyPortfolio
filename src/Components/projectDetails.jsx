@@ -27,34 +27,36 @@ function ProjectDetails() {
                     >
                         &#8592; Terug naar Projecten
                     </button>
-                    {project.live && (
+                    <div className="flex space-x-4">
+                        {project.live && (
+                            <a
+                                href={project.live}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center text-base font-bold text-white px-3 py-1.5 rounded-md transition-transform transform hover:scale-105 hover:bg-red-800 hover:text-white border border-red-500"
+                            >
+                                <img
+                                    src="/MyPortfolio/iconImages/live.webp"
+                                    alt="Live Page logo"
+                                    className="w-5 h-5 mr-2"
+                                />
+                                Live Page
+                            </a>
+                        )}
                         <a
-                            href={project.live}
+                            href={project.github}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="flex items-center text-base font-bold text-yellow-400 px-3 py-1.5 rounded-md transition-transform transform hover:scale-105 hover:bg-yellow-800 hover:text-white border border-yellow-500 mx-4"
+                            className="flex items-center text-base font-bold text-yellow-400 px-3 py-1.5 rounded-md transition-transform transform hover:scale-105 hover:bg-yellow-800 hover:text-white border border-yellow-500"
                         >
                             <img
-                                src="/MyPortfolio/iconImages/live.webp"
-                                alt="Live Page logo"
+                                src="/MyPortfolio/iconImages/github.png"
+                                alt="GitHub logo"
                                 className="w-5 h-5 mr-2"
                             />
-                            Live Page
+                            GitHub
                         </a>
-                    )}
-                    <a
-                        href={project.github}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center text-base font-bold text-yellow-400 px-3 py-1.5 rounded-md transition-transform transform hover:scale-105 hover:bg-yellow-800 hover:text-white border border-yellow-500"
-                    >
-                        <img
-                            src="/MyPortfolio/iconImages/github.png"
-                            alt="GitHub logo"
-                            className="w-5 h-5 mr-2"
-                        />
-                        GitHub
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>
