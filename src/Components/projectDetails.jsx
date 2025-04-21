@@ -47,7 +47,7 @@ function ProjectDetails() {
                             href={project.github}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="flex items-center text-base font-bold text-yellow-400 px-3 py-1.5 rounded-md transition-transform transform hover:scale-105 hover:bg-yellow-800 hover:text-white border border-yellow-500"
+                            className="flex items-center text-base font-bold text-white px-3 py-1.5 rounded-md transition-transform transform hover:scale-105 hover:bg-gray-800 hover:text-white border border-gray-500"
                         >
                             <img
                                 src="/MyPortfolio/iconImages/github.png"
