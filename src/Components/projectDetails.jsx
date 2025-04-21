@@ -20,12 +20,27 @@ function ProjectDetails() {
                 <h1 className="text-4xl font-extrabold mb-6 text-yellow-300 text-center">{project.title}</h1>
                 <ImageSlideshow images={project.images}/>
                 <p className="text-lg text-gray-300 mb-6 leading-relaxed">{project.description}</p>
-                <button
-                    onClick={() => navigate(-1)}
-                    className="text-base font-bold text-yellow-400 px-3 py-1.5 rounded-md transition-transform transform hover:scale-105 hover:bg-yellow-800 hover:text-white border border-yellow-500 block text-left"
-                >
-                    &#8592; Terug naar Projecten
-                </button>
+                <div className="flex justify-between items-center">
+                    <button
+                        onClick={() => navigate(-1)}
+                        className="text-base font-bold text-yellow-400 px-3 py-1.5 rounded-md transition-transform transform hover:scale-105 hover:bg-yellow-800 hover:text-white border border-yellow-500"
+                    >
+                        &#8592; Terug naar Projecten
+                    </button>
+                    <a
+                        href={project.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center text-base font-bold text-yellow-400 px-3 py-1.5 rounded-md transition-transform transform hover:scale-105 hover:bg-yellow-800 hover:text-white border border-yellow-500"
+                    >
+                        <img
+                            src="/MyPortfolio/iconImages/github.png"
+                            alt="GitHub logo"
+                            className="w-5 h-5 mr-2"
+                        />
+                        GitHub
+                    </a>
+                </div>
             </div>
         </div>
     );
