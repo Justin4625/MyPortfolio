@@ -40,7 +40,7 @@ function ProjectDetails() {
                                     alt="Live Page logo"
                                     className="w-5 h-5 mr-2"
                                 />
-                                Live Page
+                                Live Pagina
                             </a>
                         )}
                         <a
