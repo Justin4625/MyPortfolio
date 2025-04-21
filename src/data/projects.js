@@ -6,7 +6,8 @@ const projects = [
         image: "./projectImages/comingSoon.jpg",
         images: [
             "../projectImages/comingSoon.jpg"
-        ]
+        ],
+        github: ""
     },
     {
         id: 2,
@@ -17,7 +18,8 @@ const projects = [
             "../projectImages/Beeldherkenning.png",
             "../projectImages/Beeldherkenning2.png",
             "../projectImages/Beeldherkenning3.png"
-        ]
+        ],
+        github: ""
     },
     {
         id: 3,
@@ -26,7 +28,8 @@ const projects = [
         image: "./projectImages/comingSoon.jpg",
         images: [
             "../projectImages/comingSoon.jpg"
-        ]
+        ],
+        github: ""
     },
     {
         id: 4,
@@ -35,7 +38,8 @@ const projects = [
         image: "./projectImages/NederlandseGebarentaal.png",
         images: [
             "../projectImages/NederlandseGebarentaal.png",
-        ]
+        ],
+        github: ""
     },
     {
         id: 5,
@@ -44,7 +48,8 @@ const projects = [
         image: "./projectImages/OpenHiring.png",
         images: [
             "../projectImages/OpenHiring.png",
-        ]
+        ],
+        github: ""
     },
     {
         id: 6,
@@ -53,7 +58,8 @@ const projects = [
         image: "./projectImages/Pokemoncompendium.png",
         images: [
             "../projectImages/Pokemoncompendium.png",
-        ]
+        ],
+        github: ""
     },
     {
         id: 7,
@@ -62,7 +68,8 @@ const projects = [
         image: "./projectImages/Shinydex.png",
         images: [
             "../projectImages/Shinydex.png",
-        ]
+        ],
+        github: ""
     },
     {
         id: 8,
@@ -71,7 +78,8 @@ const projects = [
         image: "./projectImages/Earthifacts.png",
         images: [
             "../projectImages/Earthifacts.png",
-        ]
+        ],
+        github: ""
     },
     {
         id: 9,
@@ -80,7 +88,8 @@ const projects = [
         image: "./projectImages/Spacechicken.png",
         images: [
             "../projectImages/Spacechicken.png",
-        ]
+        ],
+        github: ""
     },
     {
         id: 10,
@@ -89,7 +98,8 @@ const projects = [
         image: "./projectImages/Vakantiebestemmingen.png",
         images: [
             "../projectImages/Vakantiebestemmingen.png"
-        ]
+        ],
+        github: ""
     },
 ];
 
