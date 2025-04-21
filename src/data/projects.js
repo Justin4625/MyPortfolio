@@ -145,7 +145,9 @@ const projects = [
         description: "Dit was mijn allereerste schoolopdracht. Het is een eenvoudige website, gebouwd met HTML en CSS, waarin je een vakantiebestemming kunt boeken.",
         image: "./projectImages/Vakantiebestemmingen.png",
         images: [
-            "../projectImages/Vakantiebestemmingen.png"
+            "../projectImages/Vakantiebestemmingen.png",
+            "../projectImages/Vakantiebestemmingen2.png",
+            "../projectImages/Vakantiebestemmingen3.png",
         ],
         github: "https://github.com/Justin4625/Vakantiebestemming-FE-Eindopdracht",
         live: "https://justin4625.github.io/Vakantiebestemming-FE-Eindopdracht/"
