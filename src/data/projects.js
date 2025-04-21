@@ -78,6 +78,12 @@ const projects = [
         image: "./projectImages/Pokemoncompendium.png",
         images: [
             "../projectImages/Pokemoncompendium.png",
+            "../projectImages/Pokemoncompendium2.png",
+            "../projectImages/Pokemoncompendium3.png",
+            "../projectImages/Pokemoncompendium4.png",
+            "../projectImages/Pokemoncompendium5.png",
+            "../projectImages/Pokemoncompendium6.png",
+            "../projectImages/Pokemoncompendium7.png",
         ],
         github: "https://github.com/Justin4625/PokemonCompendium-PRG05-Eindopracht"
     },
