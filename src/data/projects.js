@@ -94,6 +94,16 @@ const projects = [
         image: "./projectImages/Shinydex.png",
         images: [
             "../projectImages/Shinydex.png",
+            "../projectImages/Shinydex2.png",
+            "../projectImages/Shinydex3.png",
+            "../projectImages/Shinydex4.png",
+            "../projectImages/Shinydex5.png",
+            "../projectImages/Shinydex6.png",
+            "../projectImages/Shinydex7.png",
+            "../projectImages/Shinydex8.png",
+            "../projectImages/Shinydex9.png",
+            "../projectImages/Shinydex10.png",
+            "../projectImages/Shinydex11.png",
         ],
         github: "https://github.com/Justin4625/Shinydex",
         live: "https://justin4625.github.io/Shinydex/"
