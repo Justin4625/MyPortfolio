@@ -27,6 +27,21 @@ function ProjectDetails() {
                     >
                         &#8592; Terug naar Projecten
                     </button>
+                    {project.live && (
+                        <a
+                            href={project.live}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center text-base font-bold text-yellow-400 px-3 py-1.5 rounded-md transition-transform transform hover:scale-105 hover:bg-yellow-800 hover:text-white border border-yellow-500 mx-4"
+                        >
+                            <img
+                                src="/MyPortfolio/iconImages/live.webp"
+                                alt="Live Page logo"
+                                className="w-5 h-5 mr-2"
+                            />
+                            Live Page
+                        </a>
+                    )}
                     <a
                         href={project.github}
                         target="_blank"
