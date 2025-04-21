@@ -57,6 +57,17 @@ const projects = [
         image: "./projectImages/OpenHiring.png",
         images: [
             "../projectImages/OpenHiring.png",
+            "../projectImages/OpenHiring2.png",
+            "../projectImages/OpenHiring3.png",
+            "../projectImages/OpenHiring4.png",
+            "../projectImages/OpenHiring5.png",
+            "../projectImages/OpenHiring6.png",
+            "../projectImages/OpenHiring7.png",
+            "../projectImages/OpenHiring8.png",
+            "../projectImages/OpenHiring9.png",
+            "../projectImages/OpenHiring10.png",
+            "../projectImages/OpenHiring11.png",
+            "../projectImages/OpenHiring12.png",
         ],
         github: "https://github.com/Priy4s/TLE_1_Agency"
     },
