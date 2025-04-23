@@ -2,6 +2,9 @@ import { Link } from "react-router-dom";
 import projects from "./data/projects.js";
 
 function Projects() {
+    // Sorteer de projecten op aflopende volgorde van id
+    const sortedProjects = [...projects].sort((a, b) => b.id - a.id);
+
     return (
         <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-orange-900 via-black to-yellow-800 text-gray-100 px-6 py-12 relative overflow-hidden">
             <div
@@ -13,7 +16,7 @@ function Projects() {
                 Mijn Projecten
             </h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-6xl">
-                {projects.map((project) => (
+                {sortedProjects.map((project) => (
                     <div
                         key={project.id}
                         className="bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 hover:shadow-2xl hover:shadow-yellow-500/50 transition-transform duration-300"
