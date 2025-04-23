@@ -7,7 +7,11 @@ const projects = [
         images: [
             "../projectImages/comingSoon.jpg"
         ],
-        github: "https://github.com/Justin4625/Taalmodel-Eindopdracht-02-PRG-08"
+        github: "https://github.com/Justin4625/Taalmodel-Eindopdracht-02-PRG-08",
+        languages: [
+            "../iconImages/react.png",
+            "../iconImages/express.png",
+        ]
     },
     {
         id: 2,

@@ -18,8 +18,26 @@ function ProjectDetails() {
             <div
                 className="max-w-5xl bg-gray-800 p-8 rounded-lg shadow-lg shadow-black/50 border border-gray-700">
                 <h1 className="text-4xl font-extrabold mb-6 text-yellow-300 text-center">{project.title}</h1>
-                <ImageSlideshow images={project.images}/>
+                <ImageSlideshow images={project.images} />
                 <p className="text-lg text-gray-300 mb-6 leading-relaxed">{project.description}</p>
+
+                {/* Render languages */}
+                {project.languages && (
+                    <div className="mb-6">
+                        <h4 className="text-xl font-bold text-yellow-400 mb-2">Languages:</h4>
+                        <div className="flex gap-4">
+                            {project.languages.map((language, index) => (
+                                <img
+                                    key={index}
+                                    src={language}
+                                    alt={`Language ${index + 1}`}
+                                    className="w-8 h-8"
+                                />
+                            ))}
+                        </div>
+                    </div>
+                )}
+
                 <div className="flex justify-between items-center">
                     <button
                         onClick={() => navigate(-1)}
