@@ -9,6 +9,7 @@ const projects = [
         ],
         github: "https://github.com/Justin4625/Taalmodel-Eindopdracht-02-PRG-08",
         languages: [
+            "../iconImages/js.png",
             "../iconImages/react.png",
             "../iconImages/express.png",
         ]
@@ -24,7 +25,10 @@ const projects = [
             "../projectImages/Beeldherkenning3.png"
         ],
         github: "https://github.com/Justin4625/Interface-PRG08-Eindopdracht01",
-        live: "https://justin4625.github.io/Interface-PRG08-Eindopdracht01/"
+        live: "https://justin4625.github.io/Interface-PRG08-Eindopdracht01/",
+        languages: [
+            "../iconImages/js.png",
+        ]
     },
     {
         id: 3,
@@ -52,7 +56,11 @@ const projects = [
             "../projectImages/NederlandseGebarentaal8.png",
             "../projectImages/NederlandseGebarentaal9.png",
         ],
-        github: "https://github.com/hugodeman/SM-3_team-3"
+        github: "https://github.com/hugodeman/SM-3_team-3",
+        languages: [
+            "../iconImages/react.png",
+            "../iconImages/laravel.png",
+        ]
     },
     {
         id: 5,
@@ -73,7 +81,12 @@ const projects = [
             "../projectImages/OpenHiring11.png",
             "../projectImages/OpenHiring12.png",
         ],
-        github: "https://github.com/Priy4s/TLE_1_Agency"
+        github: "https://github.com/Priy4s/TLE_1_Agency",
+        languages: [
+            "../iconImages/laravel.png",
+            "../iconImages/js.png",
+            "../iconImages/CSS.svg",
+        ]
     },
     {
         id: 6,
@@ -89,7 +102,10 @@ const projects = [
             "../projectImages/Pokemoncompendium6.png",
             "../projectImages/Pokemoncompendium7.png",
         ],
-        github: "https://github.com/Justin4625/PokemonCompendium-PRG05-Eindopracht"
+        github: "https://github.com/Justin4625/PokemonCompendium-PRG05-Eindopracht",
+        languages: [
+            "../iconImages/laravel.png",
+        ]
     },
     {
         id: 7,
@@ -110,7 +126,12 @@ const projects = [
             "../projectImages/Shinydex11.png",
         ],
         github: "https://github.com/Justin4625/Shinydex",
-        live: "https://justin4625.github.io/Shinydex/"
+        live: "https://justin4625.github.io/Shinydex/",
+        languages: [
+            "../iconImages/HTML5.webp",
+            "../iconImages/CSS.svg",
+            "../iconImages/js.png",
+        ]
     },
     {
         id: 8,
@@ -127,7 +148,10 @@ const projects = [
             "../projectImages/Earthifacts7.png",
             "../projectImages/Earthifacts8.png",
         ],
-        github: "https://github.com/Justin4625/Earthifacts-CLE4"
+        github: "https://github.com/Justin4625/Earthifacts-CLE4",
+        languages: [
+            "../iconImages/excalibur.png",
+        ]
     },
     {
         id: 9,
@@ -141,7 +165,10 @@ const projects = [
             "../projectImages/Spacechicken4.png",
         ],
         github: "https://github.com/Justin4625/Space-Chicken---PRG4-Eindopdracht",
-        live: "https://justin4625.github.io/Space-Chicken---PRG4-Eindopdracht/"
+        live: "https://justin4625.github.io/Space-Chicken---PRG4-Eindopdracht/",
+        languages: [
+            "../iconImages/excalibur.png",
+        ]
     },
     {
         id: 10,
@@ -154,7 +181,11 @@ const projects = [
             "../projectImages/Vakantiebestemmingen3.png",
         ],
         github: "https://github.com/Justin4625/Vakantiebestemming-FE-Eindopdracht",
-        live: "https://justin4625.github.io/Vakantiebestemming-FE-Eindopdracht/"
+        live: "https://justin4625.github.io/Vakantiebestemming-FE-Eindopdracht/",
+        languages: [
+            "../iconImages/HTML5.webp",
+            "../iconImages/CSS.svg",
+        ]
     },
 ];
 

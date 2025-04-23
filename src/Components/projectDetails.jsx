@@ -21,10 +21,9 @@ function ProjectDetails() {
                 <ImageSlideshow images={project.images} />
                 <p className="text-lg text-gray-300 mb-6 leading-relaxed">{project.description}</p>
 
-                {/* Render languages */}
                 {project.languages && (
                     <div className="mb-6">
-                        <h4 className="text-xl font-bold text-yellow-400 mb-2">Languages:</h4>
+                        <h4 className="text-xl font-bold text-yellow-400 mb-2"></h4>
                         <div className="flex gap-4">
                             {project.languages.map((language, index) => (
                                 <img
