@@ -27,6 +27,8 @@ const projects = [
         github: "https://github.com/Justin4625/Interface-PRG08-Eindopdracht01",
         live: "https://justin4625.github.io/Interface-PRG08-Eindopdracht01/",
         languages: [
+            "../iconImages/HTML5.webp",
+            "../iconImages/CSS.svg",
             "../iconImages/js.png",
         ]
     },
