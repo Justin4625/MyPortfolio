@@ -176,8 +176,8 @@ const projects = [
     },
     {
         id: 10,
-        title: "Taalmodel (Binnenkort)",
-        description: "Dit project is op dit moment nog in ontwikkeling",
+        title: "Taalmodel",
+        description: "Dit project was onderdeel van een schoolproject. Dit is een taalmodel waarmee je vragen kunt stellen over een specifieke Pokémon. Met de knop \"Random Pokémon\" kies je een willekeurige Pokémon uit de Poké API, waarna je het model vragen kunt stellen over die Pokémon, zoals het type, evoluties of andere interessante weetjes.",
         image: "./projectImages/comingSoon.jpg",
         images: [
             "../projectImages/comingSoon.jpg"
