@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import projects from "./data/projects.js";
 
 function Projects() {
-    // Sorteer de projecten op aflopende volgorde van id
     const sortedProjects = [...projects].sort((a, b) => b.id - a.id);
 
     return (
