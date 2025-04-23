@@ -178,9 +178,12 @@ const projects = [
         id: 10,
         title: "Taalmodel",
         description: "Dit project was onderdeel van een schoolproject. Dit is een taalmodel waarmee je vragen kunt stellen over een specifieke Pokémon. Met de knop \"Random Pokémon\" kies je een willekeurige Pokémon uit de Poké API, waarna je het model vragen kunt stellen over die Pokémon, zoals het type, evoluties of andere interessante weetjes.",
-        image: "./projectImages/comingSoon.jpg",
+        image: "./projectImages/Taalmodel.png",
         images: [
-            "../projectImages/comingSoon.jpg"
+            "../projectImages/Taalmodel2.png",
+            "../projectImages/Taalmodel4.png",
+            "../projectImages/Taalmodel.png",
+            "../projectImages/Taalmodel3.png",
         ],
         github: "https://github.com/Justin4625/Taalmodel-Eindopdracht-02-PRG-08",
         languages: [
