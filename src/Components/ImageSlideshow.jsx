@@ -20,7 +20,7 @@ function ImageSlideshow({ images, autoplayInterval = 3000 }) {
             handleNextImage();
         }, autoplayInterval);
 
-        return () => clearInterval(interval); // Cleanup on unmount
+        return () => clearInterval(interval);
     }, [currentIndex, autoplayInterval]);
 
     return (
