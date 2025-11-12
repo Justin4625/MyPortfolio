@@ -14,7 +14,6 @@ function Contact() {
             </header>
 
             <section className="mt-8 space-y-6 w-full max-w-3xl">
-                {/* LinkedIn Box */}
                 <div
                     className="flex items-center space-x-6 bg-gray-800 p-8 rounded-lg shadow-[0_0_15px_rgba(255,165,0,0.8)] hover:shadow-[0_0_30px_rgba(255,165,0,1)] hover:scale-110 transition-transform duration-300 border-2 border-orange-500">
                     <img
@@ -32,7 +31,6 @@ function Contact() {
                     </a>
                 </div>
 
-                {/* Gmail Box */}
                 <div
                     className="flex items-center space-x-6 bg-gray-800 p-8 rounded-lg shadow-[0_0_15px_rgba(0,255,127,0.8)] hover:shadow-[0_0_30px_rgba(0,255,127,1)] hover:scale-110 transition-transform duration-300 border-2 border-green-500">
                     <img
