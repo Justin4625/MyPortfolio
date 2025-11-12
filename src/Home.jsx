@@ -22,10 +22,9 @@ function Home() {
 
     return (
         <main
-            id="home" ///
+            id="home"
             className={`bg-gradient-to-br ${background} h-screen flex flex-col justify-center items-center px-6 text-center relative overflow-hidden font-pixel text-white transition-all duration-1000`}
         >
-            {/* Background Pattern */}
             <div
                 className="absolute inset-0 bg-[url('/path-to-pattern.png')] opacity-20 mix-blend-overlay"
                 aria-hidden="true"
